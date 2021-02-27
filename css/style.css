@@ -8,6 +8,7 @@ html {
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
+  overflow: hidden;
 }
 
 .center {
@@ -54,9 +55,6 @@ header nav ul {
   display: flex;
 }
 
-nav li {
-  padding-left: 3.5rem;
-}
 
 nav a {
   vertical-align: bottom;
@@ -279,9 +277,6 @@ footer .copyright {
     top: 2.5625rem;
   }
   
-
- 
-
   #filters-section {
     padding: 1.5rem 0 0 0;
   }
@@ -345,7 +340,7 @@ footer .copyright {
   }
 
   header .content {
-    padding: .5rem 0;
+    padding: 0.5rem 0;
   }
 
   header .mobile ul {
@@ -431,4 +426,8 @@ footer .copyright {
   footer .content {
     font-size: .625rem;
   }
+  header .content {
+    width: 100%;
+  }
+
 }
